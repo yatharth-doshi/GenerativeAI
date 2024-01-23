@@ -30,11 +30,11 @@ questions related to code entities. The application clones the repository locall
 
 ## Usage Instruction:
 1. After completing the previous steps when you open this URL: http://127.0.0.1:5000 
-  1. Enter the github URL. Ie: https://github.com/Alathrop2/Python-QuickSort
-  2. Select Knowledge Level based on your understand to the repository. ie: Completely familiar
-  3. Enter question. ie: how quick_sort algorithm is implemented
-  4. Click on “Generate Response” Button 
-  5. Wait for the result to be generated
+  * Enter the github URL. Ie: https://github.com/Alathrop2/Python-QuickSort
+  * Select Knowledge Level based on your understand to the repository. ie: Completely familiar
+  * Enter question. ie: how quick_sort algorithm is implemented
+  * Click on “Generate Response” Button 
+  * Wait for the result to be generated
 2. This response is generated from repository to explain function quick_sort() used 
 
 ## Limitations:
