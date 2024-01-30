@@ -13,20 +13,13 @@ file of the specified repository. It then generates a concise summary of the pro
 ▪ The users that are completely familiar with the repository can ask specific
 questions related to code entities. The application clones the repository locally, searches for relevant code snippets, and provides information based on the mention code entities.
 
-## System requirements:
-• System with python 3 or Higher installed
-• Minimum 16 GB of RAM
-• 20 GB free disk space required
-
 ## Installation and execution instructions:
-1. Download ZIP file from the URL:
-2. Extract the ZIP file on your device
-3. Open directory in any IDE
 
-4. Install the requirements.txt file to get the dependencies required to run the code using pip install -r requirements.txt
-5. Run the app.py file using: python app.py
+1. Install the requirements.txt file to get the dependencies required to run the code using pip install -r requirements.txt
+   
+2. Run the app.py file using: python app.py
  
-6. Open the URL http://127.0.0.1:5000 in any browser
+3. Open the URL http://127.0.0.1:5000 in any browser
 
 ## Usage Instruction:
 1. After completing the previous steps when you open this URL: http://127.0.0.1:5000 
@@ -35,7 +28,9 @@ questions related to code entities. The application clones the repository locall
   * Enter question. ie: how quick_sort algorithm is implemented
   * Click on “Generate Response” Button 
   * Wait for the result to be generated
-2. This response is generated from repository to explain function quick_sort() used 
+2. This response is generated from repository to explain function quick_sort() used
+<img width="451" alt="image" src="https://github.com/yatharth-doshi/GenerativeAI/assets/98324546/e8ef2b9f-d709-4844-926d-11aef6383ecb">
+
 
 ## Limitations:
 1. If the prompt is wrong then the model might generate inaccurate results.
