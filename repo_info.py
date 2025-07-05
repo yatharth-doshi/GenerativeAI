@@ -31,7 +31,7 @@ def repository_url_check(repo_url):
 def fetch_repo_info(owner, repo_name):
     
     api_url = f"{GITHUB_API_URL}{owner}/{repo_name}"
-    headers = {"Authorization": "Token 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"}
+    headers = {"Authorization": "Token {repo_token}"}
     response = requests.get(api_url, headers=headers)
 
     if response.status_code == 200:
